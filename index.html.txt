@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title> html tutorial </title>
+<style>
+   div{
+     width:400px;
+     height:350px;
+     border: double;
+     margin: 0 auto;
+     font-family:Arial, sans-serif;
+      }
+   .local{
+     text-align:center;
+     background-color:#0ff;
+     color:black;
+     }
+    .mb{
+     text-align:center;
+     font-size: 20px;
+     color:black;
+     }
+   .car {
+     background-color:#0ff;
+     color:black;
+     text-align:center;
+     }
+    th{
+      color:blue;
+      text-align: left;
+     }
+    b{
+      color:blue;
+     }
+    
+</style>
+</head>
+
+<body>
+<div>
+ <table>
+   <th class="mb" colspan="2"> Municipio de Brumado</th>
+   <tr>
+   <th>Aniversário</td>
+   <td>11 de julho</td>
+   </tr>
+
+   <tr>
+   <th>Fundação</td>
+   <td>1877</td>
+   </tr>
+
+   <tr>
+   <th class="local" colspan="2"> Localização</th>
+   </tr>
+
+   <tr>
+   <th>Unidade <br> federativa</td>
+   <td>Bahia</td>
+   </tr>
+
+   <tr>
+   <th>Microrregião</td>
+   <td>Brumado </td>
+   </tr>
+   
+   <tr>
+   <th valign="top"> Municipios <br> limitrofes</td>
+   <td>Rio de contas, Dom Basilio, livramento de Nossa Senhora, Rio do Antônio, Malhada de Pedras, Maetinga, Aracatu, Tanhaçu,Ituaçu </td>
+   </tr>
+
+   <tr>
+   <th class="car" colspan="2">Caracteristicas Geográficas</th>
+   </tr>
+
+   <tr>
+   <th>Área</td>
+   <td>2.166,532 <b>km²</b> </td>
+   </tr>
+
+   <tr>
+   <th>População</td>
+   <td>64.642 hab. est. <b> IBGE/2009 </b> </td>
+   </tr>
+
+   <tr>
+   <th>Altitude</td>
+   <td>454 <b>m </b> </td>
+   </tr>
+
+   <tr>
+   <th>Clima </td>
+   <td>Semiarido </td>
+   </tr>
+
+</table>
+</div>
+</html>
+
+</body>
+
+</html>
